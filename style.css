@@ -1,0 +1,61 @@
+body {
+  background: black;
+  color: #00ff99;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+#game {
+  width: 700px;
+  border: 4px solid #00ff99;
+  padding: 20px;
+  background: #111;
+  box-shadow: 0 0 20px #00ff99;
+}
+
+h1 {
+  text-align: center;
+}
+
+#scene-text {
+  margin: 30px 0;
+  min-height: 120px;
+  line-height: 1.6;
+}
+
+button { display: block; width: 100%; margin-top: 15px; padding: 15px; background: #04172E; color: #39D08A; border: 2px solid #13B2F7; font-family: monospace; font-size: 16px; cursor: pointer; transition: all 0.2s ease; } button:hover { background: #13B2F7; color: black; transform: scale(1.02); box-shadow: 0 0 15px #13B2F7; }
+
+#inventory-panel {
+
+  margin-top: 30px;
+
+  border-top: 2px solid #00ff99;
+
+  padding-top: 15px;
+
+}
+
+#inventory-panel h3 {
+
+  margin-bottom: 10px;
+
+}
+
+#inventory-list {
+
+  list-style: none;
+
+  padding: 0;
+
+}
+
+#inventory-list li {
+
+  padding: 5px 0;
+
+  color: #7fffd4;
+
+}
+#portrait-container { display: flex; align-items: center; margin-bottom: 20px; border-bottom: 2px solid #13B2F7; padding-bottom: 15px; } #portrait { width: 120px; height: 120px; object-fit: cover; border: 3px solid #39D08A; margin-right: 20px; background: #04172E; } #character-name { font-size: 24px; color: #39D08A; text-shadow: 0 0 10px #39D08A; }
